@@ -1,0 +1,29 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "main",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/peiweipan/Leetcode/build/mainExe",
+            "args": [],
+            "stopAtEntry": false,
+            //"preLaunchTask": "debug build",//这一步的build与tasks.json中的type名字相同
+            "cwd": "/home/peiweipan/Leetcode",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true                    
+                }
+            ],
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+    ]
+}
